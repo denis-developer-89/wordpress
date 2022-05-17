@@ -1,4 +1,8 @@
 <?php
+
+// Configuration common to all environments
+include_once __DIR__ . '/wp-config.common.php';
+
 /**
  * Основные параметры WordPress.
  *
@@ -20,22 +24,22 @@
 
 // ** Параметры базы данных: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
-define( 'DB_NAME', 'wordpress' );
+define('DB_NAME', 'wodpressdev');
 
 /** Имя пользователя базы данных */
-define( 'DB_USER', 'root' );
+define('DB_USER', 'root');
 
 /** Пароль к базе данных */
-define( 'DB_PASSWORD', 'root' );
+define('DB_PASSWORD', 'root');
 
 /** Имя сервера базы данных */
-define( 'DB_HOST', 'localhost' );
+define('DB_HOST', 'localhost');
 
 /** Кодировка базы данных для создания таблиц. */
-define( 'DB_CHARSET', 'utf8mb4' );
+define('DB_CHARSET', 'utf8mb4');
 
 /** Схема сопоставления. Не меняйте, если не уверены. */
-define( 'DB_COLLATE', '' );
+define('DB_COLLATE', '');
 
 /**#@+
  * Уникальные ключи и соли для аутентификации.
@@ -48,14 +52,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'PAAZ>o}9EHufh[6(bH D{J9K:A#Ki T$yHnv^%v&#mFJOK[wEOQPhXj&CAaWE8o}' );
-define( 'SECURE_AUTH_KEY',  '~wcKG+8AIzU:7=O$Rz7a?_D/@;+Kc0|*1wy:$~t*-1GyKF0*H6@$2Ul}n/mgUWQU' );
-define( 'LOGGED_IN_KEY',    'MN;x,Z#/@t#1]2*Va 6#B/Fy`VG//W 1:Uwbq4j~^^u[qaD,9fB>9fmh``>__ik:' );
-define( 'NONCE_KEY',        'ctnk6wb+_MW83H*/53E}}dq]5DdBJWf8:x9{u@CX6E]J~Z1?o9x0)rhdZJJMS,H^' );
-define( 'AUTH_SALT',        'jf;_.0+Gv)I+g>t|9)![<+r5_wM)xU:r-BwuR19$klu<k9KN(4^1`A*LFb.tLyxx' );
-define( 'SECURE_AUTH_SALT', '(sWYC&DOI~H_kuRUYa}4,_qsJS&A-Dtg%L#RJqvVbN+b]b>;W+Gd@7x)ZU[kw3Z}' );
-define( 'LOGGED_IN_SALT',   '$^I~GTnOb |+?n)d*V<Kln3+CAlJix[4c-)W_=-q$C] F~1IhF+C4TP~c0uYS6?m' );
-define( 'NONCE_SALT',       '? ~|Qg.F$]/N{@^l3]03v}:edw7=<j=j-wq(~L<(pP;nN(tk;nbX4}HVJ(5WhwPB' );
+define('AUTH_KEY',         '>!hN2>TAzW@<E3i/Dbz,mqk20yi:%bdY]yt_EJ:3|=:0K#PwWXtdF-3Z),OJ>d?4');
+define('SECURE_AUTH_KEY',  'I3lSJ[CXb?CQYu)u.o.UCCm`h2O^NA+*#85f!~c}< -r.sdF}NUu9}Ys`||=0>X;');
+define('LOGGED_IN_KEY',    '+p`ULiuLY&bRFJ|?ay~GfY9ukrke5Xk8d+]i`}MX=k&ShQnY6Xab%dp^Gv_VkItr');
+define('NONCE_KEY',        '9dH3,3rnqxKp>g^zEr#6p9Uqw|V_,G^D0#ny?d$CYk6=,w$z;}AOvC=X8a.kxl-s');
+define('AUTH_SALT',        'zb=Dlj,Hl?QTF*z^:mI~u6U*cs?RTk;E7ez:15UgS5u93mC&Rs%0 B60hoC#W?rq');
+define('SECURE_AUTH_SALT', '=7?hpdXhM3c2NyGJcHI^*vSCZ+XL1-al$.K0.rcEIg-?+C~b8L-r1)T)[!{Vm^^-');
+define('LOGGED_IN_SALT',   'mC*yi_zn0tv+!XIMK4uw{!X5@S8B^RV9d:&*E!-Y>*ND,DX+.JM%q/G~Y6{d;H<^');
+define('NONCE_SALT',       'h}L+MQc{IBLK_cztM>[psG&?Bm_$d)g}v0HKx;aW~r8gnDP(!=`67c$|K3tmWLxe');
 
 /**#@-*/
 
@@ -78,17 +82,18 @@ $table_prefix = 'wp_';
  *
  * @link https://ru.wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', false );
-
+define('WP_DEBUG', false);
+define('VP_GIT_BINARY', 'C:\Program Files\Git\bin\git.exe');
 /* Произвольные значения добавляйте между этой строкой и надписью "дальше не редактируем". */
 
 
 
+define('VP_ENVIRONMENT', 'production');
 /* Это всё, дальше не редактируем. Успехов! */
 
 /** Абсолютный путь к директории WordPress. */
-if ( ! defined( 'ABSPATH' ) ) {
-	define( 'ABSPATH', __DIR__ . '/' );
+if (!defined('ABSPATH')) {
+	define('ABSPATH', __DIR__ . '/');
 }
 
 /** Инициализирует переменные WordPress и подключает файлы. */
