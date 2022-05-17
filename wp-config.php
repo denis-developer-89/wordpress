@@ -1,4 +1,8 @@
 <?php
+
+// Configuration common to all environments
+include_once __DIR__ . '/wp-config.common.php';
+
 /**
  * Основные параметры WordPress.
  *
@@ -79,11 +83,12 @@ $table_prefix = 'wp_';
  * @link https://ru.wordpress.org/support/article/debugging-in-wordpress/
  */
 define( 'WP_DEBUG', false );
-
+define('VP_GIT_BINARY', 'C:\Program Files\Git\bin\git.exe');
 /* Произвольные значения добавляйте между этой строкой и надписью "дальше не редактируем". */
 
 
 
+define('VP_ENVIRONMENT', 'production');
 /* Это всё, дальше не редактируем. Успехов! */
 
 /** Абсолютный путь к директории WordPress. */
