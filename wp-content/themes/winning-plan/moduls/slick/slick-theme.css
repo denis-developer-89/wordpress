@@ -1,0 +1,119 @@
+@charset 'UTF-8';
+/* Slider */
+.slick-loading .slick-list
+{
+    background: #fff url('./ajax-loader.gif') center center no-repeat;
+}
+.slick-list{
+	margin-bottom: 60px
+}
+/* Arrows */
+.slick-prev,
+.slick-next
+{
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 100%;
+    display: block;
+    padding: 0;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: rgba(212, 176, 121, 0.00);
+    height: 60px;
+    width: 60px;
+    border-radius: 0;
+	z-index: 10;
+	transition: all 0.3s
+}
+.slick-prev{
+	left: 0px;
+}
+.slick-next{
+	right: 0px;
+}
+.slick-next:after{
+	content:'';
+	background: url('slick-next.png') no-repeat 50% 50%;
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+}
+.slick-prev:after{
+	content:'';
+	background: url('slick-prev.png') no-repeat 50% 50%;
+	display: inline-block;
+	height: 100%;
+	width: 100%;	
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus
+{
+    color: #fff;
+    outline: none;
+	background: linear-gradient(to top, #bbb7a6, #d2cebe, #e1ddce);
+}
+
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before
+{
+    opacity: .25;
+}
+
+
+/* Dots */
+.slick-dotted.slick-slider
+{
+    margin-bottom: 0px;
+}
+
+.slick-dots
+{
+    position: absolute;
+    bottom: -36px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+.slick-dots li
+{
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    padding: 0;
+    width: 12px;
+    height: 12px;
+	background:#fff;
+    cursor: pointer;
+	transition: all 0.2s;
+	border-radius: 50%;
+	border: 1px solid #1e262f;
+}
+	.slick-dots li.slick-active{
+		background:#1e262f
+	}
+.slick-dots li button
+{
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.slick-dots li:hover,
+.slick-dots li:focus
+{
+    outline: none;
+	opacity: 0.6;
+}

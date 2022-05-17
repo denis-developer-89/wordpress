@@ -1,0 +1,437 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Winning-Plan\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-18 14:13+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.5; wp-5.8.3\n"
+"X-Domain: winning_plan"
+
+#: template/buy-package.php:158
+msgid " מקובלים עלי"
+msgstr ""
+
+#: 404.php:7
+msgid "404"
+msgstr ""
+
+#: inc/auth/auth_ajax_register.php:234
+msgid "Already have an account?"
+msgstr ""
+
+#: inc/auth/auth_ajax_forgot.php:76
+msgid "An error has occurred, the user may not exist."
+msgstr ""
+
+#: inc/auth/auth_ajax_register.php:219
+msgid "and"
+msgstr ""
+
+#: 404.php:17 search.php:61
+msgid "Back to Homepage"
+msgstr ""
+
+#: home.php:10 index.php:10
+msgid "Blog"
+msgstr ""
+
+#: inc/auth/auth_ajax_register.php:216
+msgid "By continuing you agree to our "
+msgstr ""
+
+#: inc/custom-user-roles.php:5
+msgid "Coach"
+msgstr ""
+
+#: inc/auth/auth_ajax_forgot.php:26
+msgid "Confirm password"
+msgstr ""
+
+#: template/buy-package.php:205
+msgid "Content is not available because you have not selected a package."
+msgstr ""
+
+#: inc/auth/auth_ajax_forgot.php:14
+msgid "Create new password"
+msgstr ""
+
+#: inc/auth/auth_ajax_forgot.php:33
+msgid "Create password"
+msgstr ""
+
+#: inc/auth/auth_ajax_register.php:204
+msgid "Current time "
+msgstr ""
+
+#: inc/auth/auth_ajax_register.php:189
+msgid "E-mail"
+msgstr ""
+
+#: inc/auth/auth_ajax_forgot.php:45
+msgid "Email"
+msgstr ""
+
+#: inc/auth/auth_ajax_login.php:123
+msgid "Email address"
+msgstr ""
+
+#: inc/auth/auth_ajax_register.php:179
+msgid "Enter your first name"
+msgstr ""
+
+#: inc/auth/auth_ajax_register.php:183
+msgid "Enter your last name"
+msgstr ""
+
+#: inc/auth/auth_ajax_register.php:162 inc/auth/auth_ajax_register.php:190
+msgid "example@mail.com"
+msgstr ""
+
+#: inc/auth/auth_ajax_login.php:81
+msgid "Fine! Redirecting in progressе..."
+msgstr ""
+
+#: inc/auth/auth_ajax_register.php:178
+msgid "First name"
+msgstr ""
+
+#: inc/auth/auth_ajax_login.php:133
+msgid "Forgot password?"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.madebyomnis.com/"
+msgstr ""
+
+#: inc/auth/auth_ajax_login.php:69
+msgid "Incorrect login or password!"
+msgstr ""
+
+#: inc/auth/auth_ajax_register.php:182
+msgid "Last name"
+msgstr ""
+
+#: inc/auth/auth_ajax_login.php:145
+msgid "Log In"
+msgstr ""
+
+#: inc/auth/auth_ajax_register.php:56
+msgid "Login details"
+msgstr ""
+
+#: inc/auth/auth_ajax_register.php:57
+msgid "Login:"
+msgstr ""
+
+#: inc/auth/auth_ajax_login.php:159 inc/auth/auth_ajax_register.php:242
+msgid "Logout"
+msgstr ""
+
+#: inc/custom-user-roles.php:13
+msgid "Manager"
+msgstr ""
+
+#: inc/auth/auth_ajax_forgot.php:19
+msgid "New password"
+msgstr ""
+
+#: inc/action-package.php:114 inc/action-package.php:134
+#: inc/auth/auth_ajax_forgot.php:125 inc/auth/auth_ajax_login.php:102
+#: inc/auth/auth_ajax_register.php:89
+msgid "Nonce code in corect"
+msgstr ""
+
+#: search.php:53
+msgid ""
+"Nothing was found for this query on the site. Please change your request and "
+"try again."
+msgstr ""
+
+#. Author of the theme
+msgid "Omnis"
+msgstr ""
+
+#: 404.php:10
+msgid "Page not found"
+msgstr ""
+
+#: inc/auth/auth_ajax_register.php:161
+msgid "Parental e-mail"
+msgstr ""
+
+#: inc/auth/auth_ajax_login.php:126 inc/auth/auth_ajax_register.php:194
+msgid "Password"
+msgstr ""
+
+#: inc/auth/auth_ajax_forgot.php:82
+msgid "Password changed successfully."
+msgstr ""
+
+#: inc/auth/auth_ajax_register.php:58
+msgid "Password:"
+msgstr ""
+
+#: inc/auth/auth_ajax_forgot.php:41
+msgid ""
+"Please enter your email, and we will send you a link to create a new password"
+msgstr ""
+
+#: inc/auth/auth_ajax_register.php:221
+msgid "Privacy Policy"
+msgstr ""
+
+#: archive.php:38 home.php:42 index.php:42 search.php:40
+msgid "Read More"
+msgstr ""
+
+#: inc/auth/auth_ajax_register.php:227
+msgid "Register"
+msgstr ""
+
+#: inc/auth/auth_ajax_login.php:140
+msgid "Remember me"
+msgstr ""
+
+#: inc/auth/auth_ajax_forgot.php:49
+msgid "Reset password"
+msgstr ""
+
+#: search.php:7
+#, php-format
+msgid "Search results: %s"
+msgstr ""
+
+#: inc/auth/auth_ajax_register.php:195
+msgid "Should consist of at least of 8 characters"
+msgstr ""
+
+#: inc/auth/auth_ajax_register.php:236
+msgid "Sign In"
+msgstr ""
+
+#: inc/auth/auth_ajax_forgot.php:118
+msgid "Sorry. This email is not registered in the system."
+msgstr ""
+
+#. Name of the template
+msgid "Template [Buy package]"
+msgstr ""
+
+#. Name of the template
+msgid "Template [Fabric-Constructor]"
+msgstr ""
+
+#. Name of the template
+msgid "Template [Home page]"
+msgstr ""
+
+#. Name of the template
+msgid "Template [Packages - page]"
+msgstr ""
+
+#: inc/auth/auth_ajax_register.php:218
+msgid "Terms of Service"
+msgstr ""
+
+#: inc/auth/auth_ajax_register.php:55
+msgid "Thank you for registering"
+msgstr ""
+
+#: inc/auth/auth_ajax_register.php:76
+msgid "Thank you. You have successfully registered."
+msgstr ""
+
+#: inc/auth/auth_ajax_login.php:86
+msgid "The entered code is invalid"
+msgstr ""
+
+#: inc/auth/auth_ajax_login.php:159
+msgid "The log in form is available to users who are not logged in."
+msgstr ""
+
+#: 404.php:13
+msgid "The page you requested could not be found."
+msgstr ""
+
+#: inc/auth/auth_ajax_forgot.php:89
+msgid "The passwords you entered do not match! Check if the entry is correct."
+msgstr ""
+
+#: inc/auth/auth_ajax_register.php:242
+msgid "The registration form is available to users who are not logged in."
+msgstr ""
+
+#: archive.php:50 home.php:54 index.php:54
+msgid "The section is empty."
+msgstr ""
+
+#: inc/auth/auth_ajax_register.php:20 inc/auth/auth_ajax_register.php:107
+msgid "This email is already registered. Please use another one"
+msgstr ""
+
+#: inc/auth/auth_ajax_register.php:202
+msgid "Time zone:"
+msgstr ""
+
+#. Name of the theme
+msgid "Winning-Plan"
+msgstr ""
+
+#: inc/auth/auth_ajax_forgot.php:102
+msgid "You have received an email to confirm your password change."
+msgstr ""
+
+#: footer.php:77
+msgid "© 2021 כל הזכויות שמורות ל-WinningPlan בע״מ"
+msgstr ""
+
+#: footer.php:80
+msgid "איפיון, עיצוב ופיתוח"
+msgstr ""
+
+#: inc/email_template.php:102
+msgid "אם אתה סבור שקיבלת אותה בטעות או אם ברצונך לבטל את ההרשמה, לחץ כאן."
+msgstr ""
+
+#: inc/email_template.php:123
+msgid "בטל את המנוי"
+msgstr ""
+
+#: template/buy-package.php:145
+msgid "במהלך תקופה זו ניתן לבטל את המנוי ללא תשלום."
+msgstr ""
+
+#: inc/email_template.php:97
+msgid "בקרו באתר שלנו"
+msgstr ""
+
+#: template/buy-package.php:148
+msgid "ברכישה מסלול זה קיימת זכאות ל-14 ימי ניסיון חינם."
+msgstr ""
+
+#: template/buy-package.php:57
+msgid "הגדרת משתמשים בקבוצה"
+msgstr ""
+
+#: template/buy-package.php:67
+msgid "הוספת קבוצה"
+msgstr ""
+
+#: template/buy-package.php:55
+msgid "הוספת קבוצות ובחירת כמות שחקנים"
+msgstr ""
+
+#: inc/action-package.php:93 template/buy-package.php:137
+msgid "המסלול בהתחייבות עד סוף העונה (31.6)"
+msgstr ""
+
+#: template/buy-package.php:122 template/buy-package.php:164
+msgid "המשך"
+msgstr ""
+
+#: inc/action-package.php:102
+msgid "המשך לתשלום"
+msgstr ""
+
+#: footer.php:91
+msgid "הסינכ"
+msgstr ""
+
+#: inc/action-package.php:83 template/buy-package.php:129
+msgid "התשלום הקבוע שלך:"
+msgstr ""
+
+#: inc/action-package.php:15 template/buy-package.php:24
+msgid "חודש"
+msgstr ""
+
+#: inc/email_template.php:127
+msgid "כאן"
+msgstr ""
+
+#: template/buy-package.php:78 template/buy-package.php:185
+msgid "כמה שחקנים?"
+msgstr ""
+
+#: header.php:48 inc/auth/auth_ajax_login.php:60
+msgid "כניסה"
+msgstr ""
+
+#: template/buy-package.php:45
+msgid "כתובת המייל שלך"
+msgstr ""
+
+#: inc/auth/auth_ajax_login.php:41
+msgid "לא קיבלתי, שלחו לי שוב"
+msgstr ""
+
+#: template/buy-package.php:142
+msgid ""
+"לאחר 14 ימים, דמי המנוי יעמדו על <span class=\"msg-cost-total\">252</span> ₪ "
+"לחודש ל-<span class=\"msg-players\">21</span> משתמשים."
+msgstr ""
+
+#: template/buy-package.php:61
+msgid "לכל קבוצה מינימום 20 שחקנים"
+msgstr ""
+
+#: template/buy-package.php:48
+msgid "מייל"
+msgstr ""
+
+#: template/buy-package.php:106
+msgid "מנהל מקצועי"
+msgstr ""
+
+#: inc/action-package.php:97
+msgid "מקובלים עלי"
+msgstr ""
+
+#: inc/email_template.php:126
+msgid "ניתן למצוא את התנאים וההגבלות המלאים"
+msgstr ""
+
+#: inc/action-package.php:20
+msgid "פירוט משתמשים"
+msgstr ""
+
+#: template/buy-package.php:177
+msgid "קבוצה"
+msgstr ""
+
+#: inc/auth/auth_ajax_login.php:18
+msgid "קוד הכניסה שלך לאתר הוא"
+msgstr ""
+
+#: inc/auth/auth_ajax_login.php:16
+msgid "קוד לכניסה למערכת"
+msgstr ""
+
+#: inc/auth/auth_ajax_login.php:37
+msgid "קוד לכניסה למערכת. ברגעים אלו נשלח לכתובת המייל הרשומה"
+msgstr ""
+
+#: inc/email_template.php:103
+msgid "קיבלת דואר אלקטרוני זה מכיוון שאתה מנוי על אתר זה."
+msgstr ""
+
+#: template/buy-package.php:29
+msgid "רכישת מסלול \"מועדון\""
+msgstr ""
+
+#: inc/action-package.php:42
+msgid "שחקנים"
+msgstr ""
+
+#: inc/action-package.php:97 template/buy-package.php:157
+msgid "תנאי השימוש"
+msgstr ""

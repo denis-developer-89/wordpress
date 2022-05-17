@@ -1,0 +1,12 @@
+{
+  "admin_pages": [
+     "toplevel_page_acf-options"
+  ],
+  "taxonomies": {
+  	"electionboard" : {}
+  },
+    "post_types": {
+		"candidatures": {},
+		"post_title": {}
+  }
+}

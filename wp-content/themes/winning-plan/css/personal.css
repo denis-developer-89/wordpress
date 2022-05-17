@@ -1,0 +1,237 @@
+
+.wrapper-personal {
+    display: flex;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.header-personal__container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-personal__nav {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-personal__profile {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.header-personal__profile ul {
+    position: sticky;
+    bottom: 30px;
+}
+
+.header-personal {
+    background: #091932;
+    width: 194px;
+    position: relative;
+    z-index: 50;
+    padding: 40px 16px;
+}
+
+.header-personal__logo {
+    margin-bottom: 20px;
+}
+
+.header-personal__logo img,
+.header-personal__logo a {
+    display: inline-block;
+    height: 36px;
+}
+
+.header-personal__nav {
+
+}
+
+.header-personal__nav ul {
+    display: block;
+    padding: 0;
+    margin: 0 !important;
+}
+
+
+.header-personal__nav ul li {
+    border-bottom: 1px solid #50647E;
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header-personal__nav ul li.personnal-menu__item {
+    border: none !important;
+}
+
+.header-personal__nav ul li span.wpm-count {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: right;
+    color: #FA8585;
+}
+
+.header-personal__nav ul li a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-right: 30px;
+    position: relative;
+}
+
+.header-personal__nav ul li a img {
+    position: absolute;
+    right: 0;
+    width: 15px;
+    height: auto;
+    top: 0;
+    margin-top: 4px;
+}
+
+.header-personal__nav ul li.menu-item-has-children > a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header-personal__nav ul li.menu-item-has-children > a:after {
+    content: '+';
+    color: #DBDEE7;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.header-personal__nav ul.sub-menu {
+    position: relative;
+    width: 100%;
+    opacity: 1 !important;
+    visibility: visible !important;
+    z-index: 1;
+    display: none;
+    transition: none;
+}
+
+.header-personal__nav .current-menu-parent ul.sub-menu {
+    display: block;
+}
+
+.header-personal__nav ul.sub-menu li {
+    border: none;
+    background: transparent;
+    padding: 5px 0;
+}
+
+.header-personal__nav ul.sub-menu li.current-menu-item {
+    background: rgb(20 54 108);
+    position: relative;
+    z-index: 1;
+}
+
+.header-personal__nav ul.sub-menu li.current-menu-item:before {
+    content: '';
+    width: calc(100% + 30px);
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    margin-left: -16px;
+    background: rgb(20 54 108);
+    top: 0;
+    z-index: -1;
+}
+
+.header-personal__nav ul.sub-menu li a {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #DBDEE7;
+    padding: 0;
+}
+
+
+.header-personal__nav .btns {
+    margin-top: 24px;
+}
+
+
+.header-personal__nav .btns a {
+    box-shadow: 0px 4px 16px rgba(176, 176, 201, 0.16);
+    border-radius: 5px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F2F2F2;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.header-personal__nav .btns a.green {
+    background: #26AF77;
+}
+
+.header-personal__nav .btns a.blue {
+    background: #2C62FF;
+}
+
+.header-personal__nav .btns a.yellow {
+    background: #F6C73E;
+    color: #091932;
+}
+
+.header-personal__nav .btns a img,
+.header-personal__nav .btns a svg {
+    height: 14px;
+    width: auto;
+    margin-left: 8px;
+}
+
+.wrapper-personal__content {
+    flex: 1;
+    padding-top: 34px;
+}
+
+.wrapper-personal__content .container {
+    max-width: 1170px;
+}
+
+.wrapper-personal__title {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    color: #091932;
+}
+
+
+.personnal-menu__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #629AF1;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.personnal-menu__logo img {
+    position: relative !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+}

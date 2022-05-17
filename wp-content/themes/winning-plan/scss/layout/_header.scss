@@ -1,0 +1,253 @@
+@import '../../scss/base/_mixins.scss';
+@import '../../scss/base/_variables.scss';
+@import '../..//scss/base/_colors.scss';
+
+.header {
+  // height: 100vh;
+  // background-image: url('../../images/header/bg-header.jpg');
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position: 50% 50%;
+  // padding: 50px 0px 0px 0px;
+  // overflow: hidden;
+
+  // @media (max-height: 1000px) {
+  //   min-height: 1000px;
+  // }
+  // @media (max-width: 767px) and (max-height: 1000px) {
+  //   min-height: 100vh;
+  //   height: auto;
+  // }
+
+  // .container {
+  //   height: 100%;
+  //   display: flex;
+  //   flex-direction: column;
+
+  //   @include media-breakpoint-down(md) {
+  //     height: 100%;
+  //   }
+
+  //   @include media-breakpoint-down(sm) {
+  //     min-height: calc(100vh - 60px);
+  //     height: 100%;
+  //   }
+  // }
+  // .content {
+  //   flex-grow: 1;
+  //   display: flex;
+  //   align-items: center;
+  //   .table {
+  //     position: relative;
+  //     padding: 150px 30px 0px 30px;
+  //     background-image: url('../../images/header/bg-header-borders.svg');
+  //     background-repeat: no-repeat;
+  //     background-size: 100% 100%;
+  //     background-position: 50% 100%;
+
+  //     @include media-breakpoint-down(lg) {
+  //       background-image: url('../../images/header/bg-header-tablet-borders.svg');
+  //       background-repeat: no-repeat;
+  //       background-size: cover;
+  //       background-position: 50% 20%;
+  //       padding: 200px 60px 0px 60px;
+  //       height: 100%;
+  //     }
+  //     @include media-breakpoint-down(md) {
+  //       background-image: none;
+  //       padding: 30px 0px 30px 0px;
+  //       min-height: calc(100vh - 166px);
+  //       height: 100%;
+  //       display: flex;
+  //       flex-direction: column;
+  //     }
+  //   }
+  // }
+
+  // .menu {
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: space-between;
+  //   gap: 30px;
+  //   position: relative;
+  //   @include media-breakpoint-down(md) {
+  //     padding-bottom: 50px;
+  //     &::after {
+  //       content: '';
+  //       height: 12px;
+  //       width: 2000px;
+  //       transform: translateX(-50%);
+  //       bottom: 0px;
+  //       position: absolute;
+  //       background-image: url('../../images/header/bg-header-mobile-borders.svg');
+  //     }
+  //   }
+  //   .logo {
+  //     a {
+  //       width: 100%;
+  //       svg {
+  //         width: 100%;
+  //         path {
+  //           transition: $transition-all;
+  //         }
+  //       }
+  //       &:hover {
+  //         svg path {
+  //           fill: $hover-violet;
+  //         }
+  //       }
+  //       &:active {
+  //         svg path {
+  //           fill: $hover-dark-violet;
+  //         }
+  //       }
+  //     }
+  //   }
+  //   .text {
+  //     color: $white;
+  //     span {
+  //       font-weight: 100;
+  //     }
+
+  //     @include media-breakpoint-down(md) {
+  //       display: none;
+  //     }
+  //   }
+
+  //   button {
+  //     @include media-breakpoint-down(xs) {
+  //       padding: 20px;
+  //       min-width: 140px;
+  //     }
+  //   }
+  // }
+
+  // .text {
+  //   .slogan {
+  //     margin-bottom: 6%;
+  //     margin-left: 2%;
+  //     @include media-breakpoint-down(lg) {
+  //       margin-bottom: 26%;
+  //     }
+  //     @include media-breakpoint-down(md) {
+  //       margin-bottom: 30px;
+  //       margin-left: 0%;
+  //     }
+
+  //     h6 {
+  //       font-size: 18px;
+  //       font-weight: 400;
+  //       margin-bottom: 10px;
+  //     }
+  //   }
+
+  //   .description {
+  //     display: flex;
+  //     justify-content: center;
+  //     gap: 50px;
+  //     max-width: 95%;
+  //     margin-left: auto;
+  //     margin-left: 3%;
+  //     @include media-breakpoint-down(lg) {
+  //       max-width: 80%;
+  //       margin-left: auto;
+  //       gap: 78px;
+  //     }
+  //     @include media-breakpoint-down(md) {
+  //       max-width: 100%;
+  //       margin-left: 0px;
+  //       margin-bottom: 50px;
+  //       gap: 30px;
+  //     }
+
+  //     @include media-breakpoint-down(sm) {
+  //       justify-content: flex-start;
+  //       flex-direction: column;
+  //     }
+  //     p {
+  //       font-size: 18px;
+  //       line-height: 130%;
+  //       letter-spacing: 0.08em;
+  //       color: #ffffff;
+  //       max-width: 23%;
+  //       @include media-breakpoint-down(lg) {
+  //         font-size: 16px;
+  //         max-width: 332px;
+  //       }
+  //     }
+  //   }
+  // }
+  // .circle {
+  //   position: absolute;
+  //   right: 5%;
+  //   bottom: 30%;
+
+  //   @include media-breakpoint-down(lg) {
+  //     right: 20px;
+  //     bottom: 20px;
+  //   }
+  //   @include media-breakpoint-down(md) {
+  //     position: static;
+  //     display: flex;
+  //     justify-content: flex-end;
+  //     margin-top: auto;
+  //   }
+  //   .text-logo {
+  //     position: relative;
+  //     width: 160px;
+  //     height: 160px;
+
+  //     @include media-breakpoint-down(lg) {
+  //       width: 140px;
+  //       height: 140px;
+  //     }
+  //     @include media-breakpoint-down(sm) {
+  //       width: 100px;
+  //       height: 100px;
+  //     }
+  //     .text {
+  //       padding: 0px;
+  //       position: absolute;
+  //       animation: rotate-animation 10s infinite linear;
+  //       img {
+  //         width: 100%;
+  //         height: 100%;
+  //       }
+  //     }
+  //     .logo {
+  //       position: absolute;
+  //       img {
+  //         width: 100%;
+  //         height: 100%;
+  //       }
+  //     }
+  //   }
+  // }
+  // .explore {
+  //   padding: 20px;
+  //   display: inline-block;
+  //   cursor: pointer;
+  //   margin-top: -24px;
+  //   margin-left: -60px;
+  //   cursor: pointer;
+
+  //   @media (max-width: 1320px) {
+  //     margin-left: 0px;
+  //   }
+
+  //   @include media-breakpoint-down(md) {
+  //     display: none;
+  //   }
+
+  //   &:hover {
+  //     svg path {
+  //       fill: $violet;
+  //       animation: shake 0.5s infinite linear;
+  //     }
+  //   }
+  //   img {
+  //     width: 11px;
+  //     height: 162px;
+  //   }
+  // }
+}

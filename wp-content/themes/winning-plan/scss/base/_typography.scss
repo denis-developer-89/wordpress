@@ -1,0 +1,73 @@
+@import './_mixins.scss';
+@import './_variables.scss';
+@import './_colors.scss';
+
+// @include font-face('HelveticaNeueCyr', './fonts/HelveticaNeueCyrThin/HelveticaNeueCyrThin', 100, normal);
+// @include font-face('HelveticaNeueCyr', './fonts/HelveticaNeueCyrUltraLight/HelveticaNeueCyrUltraLight', 200, normal);
+// @include font-face('HelveticaNeueCyr', './fonts/HelveticaNeueCyrLight/HelveticaNeueCyrLight', 300, normal);
+// @include font-face('HelveticaNeueCyr', './fonts/HelveticaNeueCyrRegular/HelveticaNeueCyrRegular', 400, normal);
+// @include font-face('HelveticaNeueCyr', './fonts/HelveticaNeueCyrMedium/HelveticaNeueCyrMedium', 500, normal);
+// @include font-face('HelveticaNeueCyr', './fonts/HelveticaNeueCyrBold/HelveticaNeueCyrBold', 700, normal);
+// @include font-face('HelveticaNeueCyr', './fonts/HelveticaNeueCyrBlack/HelveticaNeueCyrBlack', 900, normal);
+// @include font-face('AryaW00Double', './fonts/AryaW00Double/AryaW00Double', 400, normal);
+
+// h1 {
+//   @include responsive-font(32px, 48px);
+//   line-height: 42px;
+//   line-height: 100%;
+//   font-weight: 900;
+//   color: $white;
+//   text-transform: uppercase;
+//   margin: 0px;
+//   color:$dark-blue;
+
+// }
+// h2 {
+//   @include responsive-font(72px, 36px);
+//   line-height: 100%;
+//   font-weight: 700;
+//   color: $white;
+//   text-transform: uppercase;
+//   margin: 0px;
+// }
+
+// h3 {
+//   @include responsive-font(64px, 32px);
+//   line-height: 100%;
+//   margin: 0px;
+//   color: $white;
+//   font-weight: 500;
+//   text-transform: uppercase;
+//   margin: 0px;
+// }
+
+// h4 {
+//   @include responsive-font(58px, 32px);
+//   line-height: 100%;
+//   font-weight: 500;
+//   color: $white;
+//   text-transform: uppercase;
+//   margin: 0px;
+// }
+
+// h5 {
+//   @include responsive-font(48px, 32px);
+//   line-height: 100%;
+//   font-weight: 500;
+//   color: $white;
+//   text-transform: uppercase;
+//   margin: 0px;
+// }
+
+// h6 {
+//   @include responsive-font(32px, 16px);
+//   line-height: 100%;
+//   font-weight: 500;
+//   color: $white;
+//   text-transform: uppercase;
+//   margin: 0px;
+// }
+
+// p {
+//   margin: 0px;
+// }
