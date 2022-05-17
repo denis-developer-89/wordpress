@@ -16,7 +16,8 @@
                 "id": ""
             },
             "placement": "top",
-            "endpoint": 0
+            "endpoint": 0,
+            "0": ""
         },
         {
             "key": "field_62543d83781dc",
@@ -37,7 +38,8 @@
             "append": "",
             "min": "",
             "max": "",
-            "step": ""
+            "step": "",
+            "0": ""
         },
         {
             "key": "field_621398326160f",
@@ -84,7 +86,8 @@
             "placeholder": "",
             "maxlength": "",
             "rows": 3,
-            "new_lines": "br"
+            "new_lines": "br",
+            "0": ""
         },
         {
             "key": "field_627b71a6e05ed",
@@ -100,7 +103,8 @@
                 "id": ""
             },
             "placement": "top",
-            "endpoint": 0
+            "endpoint": 0,
+            "0": ""
         },
         {
             "key": "field_627b71cc71667",
@@ -119,7 +123,8 @@
             "placeholder": "",
             "maxlength": "",
             "rows": "",
-            "new_lines": ""
+            "new_lines": "",
+            "0": ""
         },
         {
             "key": "field_627b7017171b0",
@@ -135,75 +140,79 @@
                 "id": ""
             },
             "placement": "top",
-            "endpoint": 0
+            "endpoint": 0,
+            "0": ""
         },
         {
-            "key": "field_6262785798399",
-            "label": "Description goals",
-            "name": "description_goals",
-            "type": "textarea",
+            "key": "field_627b6dfef992d",
+            "label": "Goals",
+            "name": "goals",
+            "type": "text",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
-                "width": "50",
+                "width": "",
                 "class": "",
                 "id": ""
             },
             "default_value": "",
             "placeholder": "",
+            "prepend": "",
+            "append": "",
             "maxlength": "",
-            "rows": "",
-            "new_lines": ""
+            "0": ""
         },
         {
-            "key": "field_626278929839a",
-            "label": "Description building",
-            "name": "description_building",
-            "type": "textarea",
+            "key": "field_627b6ecef992e",
+            "label": "Task",
+            "name": "task",
+            "type": "text",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
-                "width": "50",
+                "width": "",
                 "class": "",
                 "id": ""
             },
             "default_value": "",
             "placeholder": "",
+            "prepend": "",
+            "append": "",
             "maxlength": "",
-            "rows": "",
-            "new_lines": ""
+            "0": ""
         },
         {
-            "key": "field_626278969839b",
-            "label": "Description explanation",
-            "name": "description_explanation",
-            "type": "textarea",
+            "key": "field_627b6eebe160d",
+            "label": "Explanation",
+            "name": "explanation",
+            "type": "text",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
-                "width": "50",
+                "width": "",
                 "class": "",
                 "id": ""
             },
             "default_value": "",
             "placeholder": "",
+            "prepend": "",
+            "append": "",
             "maxlength": "",
-            "rows": "",
-            "new_lines": ""
+            "0": ""
         },
         {
-            "key": "field_626278979839c",
-            "label": "Description emphasis",
-            "name": "description_emphasis",
+            "key": "field_627b6f203a683",
+            "label": "Accent",
+            "name": "accent",
             "type": "repeater",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
-                "width": "50",
+                "width": "",
                 "class": "",
                 "id": ""
             },
@@ -212,9 +221,10 @@
             "max": 0,
             "layout": "table",
             "button_label": "",
+            "0": "",
             "sub_fields": [
                 {
-                    "key": "field_627cc30e70a9c",
+                    "key": "field_627b707d4cd86",
                     "label": "Title",
                     "name": "title",
                     "type": "text",
@@ -230,15 +240,16 @@
                     "placeholder": "",
                     "prepend": "",
                     "append": "",
-                    "maxlength": ""
+                    "maxlength": "",
+                    "0": ""
                 }
             ]
         },
         {
-            "key": "field_627c9e1a9a4bd",
-            "label": "Video Animation",
-            "name": "video_animation",
-            "type": "group",
+            "key": "field_627b6fb63a303",
+            "label": "Animation",
+            "name": "animation",
+            "type": "repeater",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -247,13 +258,18 @@
                 "class": "",
                 "id": ""
             },
-            "layout": "block",
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "0": "",
             "sub_fields": [
                 {
-                    "key": "field_627c9e1a9a4be",
-                    "label": "Video url animation",
-                    "name": "video_url_animation",
-                    "type": "url",
+                    "key": "field_627b70d0ab6b7",
+                    "label": "Video",
+                    "name": "video",
+                    "type": "oembed",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
@@ -262,16 +278,17 @@
                         "class": "",
                         "id": ""
                     },
-                    "default_value": "",
-                    "placeholder": ""
+                    "width": "",
+                    "height": "",
+                    "0": ""
                 }
             ]
         },
         {
-            "key": "field_627c9dce9a4ba",
+            "key": "field_621398f407014",
             "label": "Video",
             "name": "video",
-            "type": "group",
+            "type": "repeater",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -280,13 +297,18 @@
                 "class": "",
                 "id": ""
             },
-            "layout": "block",
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "0": "",
             "sub_fields": [
                 {
-                    "key": "field_627c9df19a4bb",
-                    "label": "Video url",
-                    "name": "video_url",
-                    "type": "url",
+                    "key": "field_627b710a85657",
+                    "label": "Video",
+                    "name": "video",
+                    "type": "oembed",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
@@ -295,32 +317,17 @@
                         "class": "",
                         "id": ""
                     },
-                    "default_value": "",
-                    "placeholder": ""
-                },
-                {
-                    "key": "field_627c9e039a4bc",
-                    "label": "Site url",
-                    "name": "site_url",
-                    "type": "url",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "placeholder": ""
+                    "width": "",
+                    "height": "",
+                    "0": ""
                 }
             ]
         },
         {
-            "key": "field_627c9e729a4c1",
-            "label": "Video for game",
-            "name": "video_for_game",
-            "type": "group",
+            "key": "field_627b713022d85",
+            "label": "Video from game",
+            "name": "video_from_game",
+            "type": "repeater",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -329,13 +336,18 @@
                 "class": "",
                 "id": ""
             },
-            "layout": "block",
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "0": "",
             "sub_fields": [
                 {
-                    "key": "field_627c9e729a4c2",
-                    "label": "Video url for game",
-                    "name": "video_url_for_game",
-                    "type": "url",
+                    "key": "field_627b716522d88",
+                    "label": "Video",
+                    "name": "video",
+                    "type": "text",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
@@ -345,25 +357,135 @@
                         "id": ""
                     },
                     "default_value": "",
-                    "placeholder": ""
-                },
-                {
-                    "key": "field_627c9e729a4c3",
-                    "label": "Site url for game",
-                    "name": "site_url_for_game",
-                    "type": "url",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "placeholder": ""
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "0": ""
                 }
             ]
+        },
+        {
+            "key": "field_627b713c22d86",
+            "label": "Video from game",
+            "name": "video_from_game",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "0": "",
+            "sub_fields": [
+                {
+                    "key": "field_627b714322d87",
+                    "label": "Video url",
+                    "name": "video_url",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "0": ""
+                }
+            ]
+        },
+        {
+            "key": "field_6262785798399",
+            "label": "Description - goals",
+            "name": "description_goals",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "basic",
+            "media_upload": 0,
+            "delay": 0,
+            "0": ""
+        },
+        {
+            "key": "field_626278969839b",
+            "label": "Description - explanation",
+            "name": "description_explanation",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "basic",
+            "media_upload": 0,
+            "delay": 0,
+            "0": ""
+        },
+        {
+            "key": "field_626278929839a",
+            "label": "Description - building",
+            "name": "description_building",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "basic",
+            "media_upload": 0,
+            "delay": 0,
+            "0": ""
+        },
+        {
+            "key": "field_626278979839c",
+            "label": "Description - emphasis",
+            "name": "description_emphasis",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "basic",
+            "media_upload": 0,
+            "delay": 0,
+            "0": ""
         }
     ],
     "location": [
@@ -384,5 +506,6 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1652345062
+    "0": "",
+    "modified": 1652785554
 }

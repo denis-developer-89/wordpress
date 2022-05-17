@@ -138,6 +138,7 @@
                 "id": ""
             },
             "layout": "block",
+            "0": "",
             "sub_fields": [
                 {
                     "key": "field_61dd653a1c3de",
@@ -242,8 +243,7 @@
                     "mime_types": "",
                     "0": ""
                 }
-            ],
-            "0": ""
+            ]
         },
         {
             "key": "field_61dd6d1ff7cc6",
@@ -1243,5 +1243,6 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1649596198
+    "0": "",
+    "modified": 1652785554
 }

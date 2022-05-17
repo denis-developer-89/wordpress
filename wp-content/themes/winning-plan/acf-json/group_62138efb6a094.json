@@ -40,7 +40,8 @@
             "load_terms": 0,
             "return_format": "id",
             "multiple": 0,
-            "allow_null": 0
+            "allow_null": 0,
+            "0": ""
         },
         {
             "key": "field_624adf514de19",
@@ -62,7 +63,8 @@
             "load_terms": 0,
             "return_format": "id",
             "multiple": 0,
-            "allow_null": 0
+            "allow_null": 0,
+            "0": ""
         }
     ],
     "location": [
@@ -83,5 +85,6 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1649672111
+    "0": "",
+    "modified": 1652785554
 }
