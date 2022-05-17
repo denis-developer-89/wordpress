@@ -1,0 +1,610 @@
+
+.page-template-packages {
+    background: #fff;
+}
+
+.page-template-packages .page-container {
+    padding-bottom: 80px;
+}
+
+.routes-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 575.98px) {
+    .routes-list {
+        display: block;
+    }
+}
+
+.routes-list__item {
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 30px;
+    width: calc(50% - 10px);
+    text-align: center;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    box-shadow: 0px 4px 16px rgba(176, 176, 201, 0.16);
+    position: relative;
+}
+
+@media (max-width: 767.98px) {
+    .routes-list__item {
+        padding: 20px 15px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .routes-list__item {
+        width: 100%;
+        padding: 30px 20px !important;
+        margin-bottom: 20px;
+    }
+}
+
+.routes-list__item.dub {
+    padding-bottom: 140px;
+}
+
+.routes-list__item.dub .routes-list_btns {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    bottom: 0;
+    padding: 30px;
+    width: 100%;
+}
+
+@media (max-width: 575.98px) {
+    .routes-list__item.dub .routes-list_btns {
+        position: relative;
+        padding: 0;
+    }
+}
+
+.routes-list__title {
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 34px;
+    color: #2C62FF;
+}
+
+.routes-list__subtitle {
+    border-bottom: 1px solid #DBDEE7;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+}
+
+.routes-list__cost {
+}
+
+.routes-list__cost span {
+}
+
+.routes-list__cost b {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.routes-list__cost b i {
+    font-size: 18px;
+    font-style: normal;
+}
+
+.routes-list__description {
+    color: #9A9AB0;
+    margin-bottom: 16px;
+}
+
+.routes-list__item .btn-wrapper {
+    background: #2C62FF;
+    border-radius: 5px;
+    height: 54px;
+    padding: 0 40px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.routes-list__item .btn-wrapper:hover {
+    background: #4573FF;
+}
+
+.routes-list_tit {
+    color: #2C62FF;
+    margin-top: 16px;
+}
+
+.routes-list_content p {
+    margin: 0;
+}
+
+@media (max-width: 575.98px) {
+    .routes-list_advantages .description {
+        display: none;
+    }
+}
+
+.routes-list_advantages .title {
+    display: block;
+    margin-top: 16px;
+    font-weight: 600;
+}
+
+.routes-list_advantages .title span {
+    color: #fc3636;
+}
+
+@media (max-width: 575.98px) {
+    .routes-list_advantages {
+        padding-right: 70px;
+    }
+
+    .routes-list_advantages .title {
+        text-align: right;
+        padding-right: 20px;
+        position: relative;
+        margin-top: 8px;
+    }
+
+    .routes-list_advantages .title:before {
+        content: '';
+        background: #2C62FF;
+        width: 7px;
+        height: 7px;
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        top: 10px;
+    }
+}
+
+.routes-list_btns {
+    margin-top: 16px;
+}
+
+.routes-list_btns .btn-wrapper.dub {
+    width: 100%;
+    max-width: 300px;
+    padding: 0;
+}
+
+.routes-list__item .btn-wrapper.individ {
+    border: 1px solid #4573FF;
+    background: transparent;
+    color: #2C62FF;
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.rtl .routes-list__item .btn-wrapper img {
+    margin-right: 10px;
+}
+
+body:not(.rtl) .routes-list__item .btn-wrapper img {
+    margin-left: 10px;
+}
+
+.page-template-buy-package {
+    background: #fff;
+}
+
+.buy-package .page-container__bg {
+    height: 180px;
+}
+
+.buy-package__form {
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    max-width: 690px;
+    margin: 0 auto;
+    min-height: 400px;
+    padding: 30px;
+}
+
+.buy-package__title {
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 34px;
+    color: #2C62FF;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.buy-package__box {
+    background: rgba(219, 222, 231, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    display: block;
+    margin-bottom: 16px;
+}
+
+.buy-package__box input {
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #DBDEE7;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 40px;
+    padding: 0 16px;
+    font-size: 18px;
+}
+
+.buy-package__box input.error {
+    background: #FA8585;
+    color: #fff;
+    border-color: #FA8585;
+}
+
+.buy-package__box input.error::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
+.status.status-email.error {
+    margin-top: 16px;
+}
+
+.buy-package__subtitle {
+    font-size: 22px;
+    line-height: 24px;
+    text-align: center;
+    color: #091932;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.buy-package__msg {
+    font-size: 14px;
+    line-height: 18px;
+    color: #091932;
+    background: rgba(93, 103, 246, 0.1);
+    border-radius: 10px;
+    padding: 9px;
+    text-align: center;
+}
+
+.buy-package__msg p {
+    margin: 0;
+}
+
+.buy-package__form form {
+    position: relative;
+}
+
+.buy-package__form .preloader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffffffe0;
+}
+
+.btn-add-group {
+    background: #FFFFFF;
+    border: 1px solid #DBDEE7;
+    width: 160px;
+    height: 40px;
+    color: #2C62FF;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 8px;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-top: 16px;
+}
+
+.btn-add-group svg {
+    width: 12px;
+    height: auto;
+}
+
+.buy-groups__box {
+    display: flex;
+    position: relative;
+    margin-top: 16px;
+    padding-left: 40px;
+    justify-content: space-between;
+}
+
+.buy-groups__players,
+.buy-groups__name {
+    display: flex;
+    align-items: center;
+}
+
+.buy-groups__players span,
+.buy-groups__name span {
+    width: 130px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+
+.buy-groups__players span {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.buy-groups__players input {
+    text-align: center;
+    font-weight: 600;
+}
+
+.buy-groups__players .plus-players,
+.buy-groups__players .minus-players {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.buy-groups__players .minus-players {
+    left: 0px;
+}
+
+.buy-groups__players .plus-players {
+    right: 0px;
+}
+
+.buy-groups__players .plus-players:hover,
+.buy-groups__players .minus-players:hover {
+    background: #e4e7f8;
+}
+
+.buy-groups__players label,
+.buy-groups__name label {
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(9, 25, 50, 0.5);
+    margin-left: 16px;
+}
+
+.buy-groups__players svg,
+.buy-groups__name svg {
+    width: 14px;
+    height: auto;
+}
+
+.buy-groups__name span {
+    width: 180px;
+}
+
+.buy-groups__delete {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    background: #FFFFFF;
+    border: 1px solid #DBDEE7;
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buy-groups__delete:hover {
+    background: #FA8585;
+    border-color: #FA8585;
+}
+
+.buy-groups__delete:hover svg path {
+    stroke: #fff;
+}
+
+.buy-package__details .item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 24px;
+    color: #091932;
+    margin-bottom: 24px;
+}
+
+.buy-package__details .item:last-child {
+    margin-bottom: 0;
+}
+
+.buy-groups__box .cost,
+.buy-package__details .cost {
+    font-size: 20px;
+    font-weight: 600;
+    width: 150px;
+    text-align: left;
+}
+
+.buy-groups__box .cost span,
+.buy-package__details .cost span {
+    color: #9A9AB0;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.buy-groups__box .cost b,
+.buy-package__details .cost b {
+    font-weight: 600;
+}
+
+.buy-package__details .players {
+    width: 100px;
+    text-align: right;
+}
+
+.buy-package__details .title {
+    width: 150px;
+    text-align: right;
+    font-size: 18px;
+}
+
+.buy-package__groups .liner,
+.buy-package__details .liner {
+    border-top: 1px solid #DBDEE7;
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+
+.buy-package__info {
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(9, 25, 50, 0.5);
+}
+
+.buy-package__info + .buy-package__msg {
+    margin-top: 24px;
+}
+
+.buy-package__agree {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.buy-package__agree .group-item__checkbox a {
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+.buy-package__agree .group-item__checkbox {
+    display: inline-flex;
+}
+
+.buy-package__total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    line-height: 24px;
+    color: #091932;
+    margin-top: 30px;
+}
+
+.buy-package__total .cost {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.buy-package__total .cost span {
+    color: #9A9AB0;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.buy-groups__coach {
+    padding-left: 0;
+}
+
+.buy-groups__coach .title {
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(9, 25, 50, 0.5);
+    margin-left: 16px;
+}
+
+@media (max-width: 575.98px) {
+    .show-list_advantages {
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+        text-decoration-line: underline;
+        color: #2C62FF;
+        margin-top: 16px;
+        display: inline-block;
+    }
+
+    .routes-list_advantages.open {
+        padding: 0;
+    }
+
+    .routes-list_advantages.open .title {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .routes-list_advantages.open .title:before {
+        display: none;
+    }
+
+    .routes-list__item .btn-wrapper {
+        width: 100%;
+    }
+
+    .buy-package__form {
+        padding: 16px;
+    }
+
+    .buy-groups__players, .buy-groups__name {
+        display: block;
+    }
+
+    .buy-groups__box {
+        align-items: end;
+    }
+
+    .buy-package__total,
+    .buy-package__total .cost,
+    .buy-package__info {
+        display: block;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+    .buy-package__groups .buy-groups__box {
+        display: block;
+        border-bottom: 1px solid #DBDEE7;
+        padding-bottom: 24px;
+    }
+
+    .buy-groups__name {
+        margin-bottom: 16px;
+    }
+
+    .buy-groups__delete {
+        top: 33px;
+        transform: none;
+    }
+
+    .buy-groups__name span {
+        width: 100%;
+    }
+
+    .buy-package .page-container__bg {
+        height: 260px;
+    }
+
+    .buy-package__details .title,
+    .buy-package__details .players,
+    .buy-package__details .cost {
+        width: auto;
+    }
+
+    .buy-groups__box.buy-groups__coach {
+        padding-bottom: 0;
+        border-bottom: 0;
+        display: flex;
+    }
+}

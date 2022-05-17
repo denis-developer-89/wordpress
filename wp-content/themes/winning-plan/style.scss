@@ -1,0 +1,49 @@
+/*!
+Theme Name: Winning-Plan
+Theme URI:
+Author: Omnis
+Author URI: https://www.madebyomnis.com/
+Description: 
+Version: 1.0.0
+*/
+
+@import './scss/base/_mixins.scss';
+@import './scss/base/_variables.scss';
+@import './scss/base/_colors.scss';
+
+/* __________ TYPOGRAPHY BEGIN __________*/
+
+@import './scss/base/_typography.scss';
+
+/* __________ TYPOGRAPHY STYLE END __________*/
+
+/* __________ BASE STYLE BEGIN __________*/
+
+@import './scss/base/_base.scss';
+
+/* __________ BASE STYLE END __________*/
+
+/* __________ LAYOUT  BEGIN __________*/
+
+@import './scss/layout/_header.scss';
+@import './scss/layout/_footer.scss';
+
+/* __________ LAYOUT  BEGIN __________*/
+
+/* __________ COMPONENTS  BEGIN __________*/
+
+@import './scss/components/modal-get-in-touch.scss';
+@import './scss/components/categories.scss';
+@import './scss/components/loader.scss';
+
+/* __________ COMPONENTS  END __________*/
+
+/* __________ LAYOUT  BEGIN __________*/
+
+/* __________  PAGE BEGIN __________*/
+
+@import './scss/pages/home-page.scss';
+@import './scss/pages/create-drill-page.scss';
+@import './scss/pages/create-training-page.scss';
+
+/* __________  PAGE END __________*/

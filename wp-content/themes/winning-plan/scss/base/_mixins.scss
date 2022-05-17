@@ -1,0 +1,120 @@
+@use "sass:math";
+
+@mixin placeholder($color) {
+  &::placeholder {
+    color: $color;
+  }
+
+  &::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: $color;
+  }
+
+  &::-moz-placeholder {
+    /* Firefox 19+ */
+    color: $color;
+  }
+
+  &:-ms-input-placeholder {
+    /* IE 10+ */
+    color: $color;
+  }
+
+  &:-moz-placeholder {
+    /* Firefox 18- */
+    color: $color;
+  }
+}
+
+@mixin animation($time) {
+  -moz-transition: all $time linear;
+  -o-transition: all $time linear;
+  -ms-transition: all $time linear;
+  -webkit-transition: all $time linear;
+  transition: all $time linear;
+}
+
+@mixin box-shadow() {
+  box-shadow: 0px 1px 32px 0px rgba(194, 194, 194, 0.34);
+}
+
+@mixin media-breakpoint-down($size) {
+  @if $size==xxl {
+    @media (max-width: 1400px) {
+      @content;
+    }
+  } @else if $size==xl {
+    @media (max-width: 1279px) {
+      @content;
+    }
+  } @else if $size==lg {
+    @media (max-width: 991px) {
+      @content;
+    }
+  } @else if $size==md {
+    @media (max-width: 767px) {
+      @content;
+    }
+  } @else if $size==sm {
+    @media (max-width: 575px) {
+      @content;
+    }
+  } @else if $size==xs {
+    @media (max-width: 479px) {
+      @content;
+    }
+  }
+}
+@mixin media-breakpoint-up($size) {
+  @if $size==xxl {
+    @media (max-width: 1400px) {
+      @content;
+    }
+  } @else if $size==xl {
+    @media (max-width: 1279px) {
+      @content;
+    }
+  } @else if $size==lg {
+    @media (min-width: 991px) {
+      @content;
+    }
+  } @else if $size==md {
+    @media (min-width: 767px) {
+      @content;
+    }
+  } @else if $size==sm {
+    @media (min-width: 575px) {
+      @content;
+    }
+  } @else if $size==xs {
+    @media (min-width: 479px) {
+      @content;
+    }
+  }
+}
+
+@mixin font-face($font-name, $path, $weight: normal, $style: normal) {
+  @font-face {
+    font-family: quote($font-name);
+    src: url($path + '.eot');
+    src: url($path + '.eot?#iefix') format('embedded-opentype'), url($path + '.woff') format('woff'), url($path + '.woff2') format('woff2'), url($path + '.ttf') format('truetype'),
+      url($path + '.svg##{$font-name}') format('svg'), url($path + '.eot') format('embedded-opentype'), url($path + '.eot?#iefix') format('embedded-opentype');
+    font-weight: $weight;
+    font-style: $style;
+  }
+}
+
+@mixin responsive-font($max-font-size: 21px, $min-font-size: 12px, $lower-range: 480px, $upper-range: 1280px) {
+  font-size: calc(
+    #{$min-font-size} + #{(math.div($max-font-size, $max-font-size * 0 + 1) - math.div($min-font-size, $min-font-size * 0 + 1))} * ((100vw - #{$lower-range}) / #{(
+            math.div($upper-range, $upper-range * 0 + 1) - math.div($lower-range, $lower-range * 0 + 1)
+          )})
+  );
+
+  @media screen and (max-width: $lower-range) {
+    font-size: $min-font-size;
+  }
+  @media screen and (min-width: $upper-range) {
+    font-size: $max-font-size;
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "winning-plan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp default"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.16.5",
+    "gulp-cli": "^2.3.0",
+    "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-transform-runtime": "^7.16.5",
+    "@babel/polyfill": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "autoprefixer": "^10.4.2",
+    "browser-sync": "^2.27.7",
+    "cssnano": "^5.0.16",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "imagemin-jpeg-recompress": "^7.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "node-sass": "^7.0.0",
+    "sass": "^1.49.7"
+  }
+}
